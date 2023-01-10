@@ -12,16 +12,27 @@
  
   <body>
      <nav>
-      <h1>David Solomon</h1>
-      <button>About</button>
-      <button>Work</button>
-      <button>Contact</button>
+      <div class="navbar-curve">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+      </div>
    </nav>
 
+
+   <header>
+      <div class="header">
+      <h1>David Solomon</h1>
+      <img src="./assets/images/image_6487327 (3).JPG" class="rounded" alt="David Solomon">
+      </div>
+   </header>
+
+   
    <section>
-      <div class="about-me">
-         <h2>About me</h2>
-         <p>Hi, My name is David, but i prefer Kobby (like the basketball player!) Although orignally born in Toronto,
+      <div class="about-title"><h2 id="about">About me</h2></div>
+         <div class="about-me">
+            <p>Hi, My name is David, but i prefer Kobby (like the basketball player!) Although orignally born in Toronto,
              I've lived down in Seattle for pretty much my whole life. My hobbies include video games, music, and a little bit of cooking! 
              Growing up, i've always been infactuated by technology, and how it's constantly evolving everyday. I'm always eager to learn something
              new, which is why i've taken up learning to become a full-stack developer! Below here, you can see a small collection of projects i've worked
@@ -31,34 +42,41 @@
    </section>
 
    <main>
+      <div class="work-title"><h2 id="work">Work</h2></div>
       <div class="horiseon">
          <a href="https://dksolomon.github.io/Horiseon-Code-Refactor/#search-engine-optimization" target="_blank">
             <img src="./assets/images/digital-marketing-meeting.jpg" id="thumbnail" alt="Horiseon Code Refactor"> 
-           <h3>Horiseon Code Refactor</h3>
+           <div class="h-overlay"><h3>Horiseon Code Refactor</h3></div>
          </a>
       </div>
 
       <div class="work">
          <a href="https://dksolomon.github.io/prework-study-guide/" target="_blank">
+            <div class="work-img">
             <img src="./assets/images/bowtie-cat.png" id="thumbnail" alt="Prework Study Guide">
-           <h3>Prework Study Guide</h3>
+            <div class="overlay"><h3>Prework Study Guide</h3></div>
+           </div>
          </a>
       </div>
 
       <div class="work">
          <a href="https://github.com/DKsolomon" target="_blank">
-            <img src="./assets/images/GitHub_Logo.png" id="thumbnail" alt="GitHub Profile">
-           <h3>GitHub Profile</h3>
+           <div class="work-img">
+            <img src="./assets/images/icons8-github-500 (1).png" id="thumbnail" alt="GitHub Profile">
+            <div class="overlay"><h3>GitHub Profile</h3></div>
+            </div>
          </a>
       </div>
    </main>
 
    <footer>
-      <h2> Contact Me</h2>
+      <div class="footer">
+      <h2 id="contact">Contact Me</h2>
       <ul>
-         <li>Phone</li>
-         <li>Email</li>
-      </ul>
+         <li>Phone:  (425)280-3498</li>         
+         <li>Email:  DKSolomon8135@gmail.com</li>
+         </ul>
+      </div>
    </footer>
   
   </body>  
